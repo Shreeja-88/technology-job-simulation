@@ -1,8 +1,10 @@
 # Telemetry Data Integration & Real-Time Dashboard Simulation
 
-This repository contains my completed submissions for the **Technology Job Simulation** — a real-world engineering simulation hosted by *Deloitte Australia*.
+This repository contains my completed submissions for the Deloitte Australia Technology Job Simulation, a virtual engineering experience focused on solving real-world platform and data integration challenges.
 
-I built solutions for real industrial data challenges, including unifying heterogeneous telemetry formats and drafting a development proposal for a real-time manufacturing dashboard.
+The simulation is hosted on the Forage virtual experience platform, which supports millions of students globally in gaining hands-on, job-ready skills through company-designed programs.
+
+As part of this experience, I developed solutions to industrial data engineering problems, including unifying heterogeneous telemetry data models and drafting a structured development proposal for a secure, real-time manufacturing status dashboard.
 
 ---
 
