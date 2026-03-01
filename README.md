@@ -1,32 +1,36 @@
 # Technology Job Simulation
 
-This repository contains solutions to multiple technical tasks completed as part of a virtual technology job simulation.
+This repository contains my completed solutions for the **Deloitte Australia Technology Virtual Job Simulation**, a self-paced program designed to provide hands-on exposure to platform engineering and real-world technical problem solving.
 
-The project focuses on solving real-world inspired engineering problems using structured thinking, clean code, and practical software development techniques.
-
----
-
-## Overview
-
-Modern technology systems often involve:
-
-* Integrating heterogeneous data sources
-* Transforming and normalizing structured data
-* Designing modular functions
-* Validating logic through testing
-
-This repository demonstrates hands-on implementation of such concepts using Python.
+The simulation focuses on building practical engineering skills through structured coding tasks inspired by real client scenarios.
 
 ---
 
-## Skills Practiced
+## About the Simulation
+
+The Deloitte Technology Job Simulation is a risk-free virtual experience designed to help students:
+
+* Practise real-world engineering problem solving
+* Strengthen programming and data transformation skills
+* Build confidence for technical interviews
+* Gain exposure to platform engineering concepts
+
+The program is self-paced and includes guided tasks that simulate industry scenarios in data integration and software development.
+
+---
+
+## Skills Developed
+
+Through this simulation, I practised:
 
 * Python Programming
 * Data Structures
 * Data Model Transformation
-* Problem Solving & Algorithm Design
-* Clean Code Practices
-* Test-Based Validation
+* Schema Reconciliation
+* Algorithm Design
+* Clean Code & Modularity
+* Test-Driven Validation
+* Structured Problem Solving
 
 ---
 
@@ -35,40 +39,52 @@ This repository demonstrates hands-on implementation of such concepts using Pyth
 ```plaintext
 technology-job-simulation/
 │
-├── task-1/
+├── task-1-data-model-unification/
 ├── task-2/
 └── README.md
 ```
 
-Each task folder contains the relevant implementation files and any required sample inputs.
+Each task folder contains the implementation files and required sample inputs.
 
 ---
 
-## How to Run
+# Task 1 – Data Model Unification (Completed)
 
-Ensure Python 3 is installed.
+### Objective
 
-```bash
-python main.py
-```
+Create an algorithm to unify two different telemetry data models into a single standardized output format.
 
-(Instructions may vary slightly depending on the task.)
+### What I Implemented
+
+* Converted two heterogeneous JSON schemas into one unified structure
+* Extracted nested device metadata
+* Reconstructed hierarchical location information
+* Converted ISO 8601 timestamps to epoch milliseconds
+* Implemented modular transformation functions
+* Validated correctness using automated unit tests
+
+### Result
+
+All provided unit tests pass successfully.
+
+### Replit Submission Link
+
+👉 [https://replit.com/@hebbarshree855/technology-job-simulation](https://replit.com/@hebbarshree855/technology-job-simulation)
+
+---
+
+# Task 2 – (Coming Soon)
+
+Task 2 will be updated after completion.
 
 ---
 
 ## Learning Outcome
 
-Through this simulation, I gained practical exposure to:
+This simulation strengthened my understanding of:
 
-* Reconciling different data formats
+* Reconciling different data sources
 * Writing reusable transformation logic
-* Structuring code for clarity and maintainability
-* Approaching technical problems with an engineering mindset
+* Designing modular backend-style functions
+* Approaching technical tasks with an engineering mindset
 
----
-
-## Context
-
-This project was completed as part of the Deloitte Australia Technology Virtual Job Simulation, a self-paced program designed to provide practical exposure to real-world engineering challenges in platform engineering and data integration.
-
-All implementations in this repository represent my own work completed during the simulation.
