@@ -1,36 +1,40 @@
-# Technology Job Simulation
+# Telemetry Data Integration & Real-Time Dashboard Simulation
 
-This repository contains my completed solutions for the **Deloitte Australia Technology Virtual Job Simulation**, a self-paced program designed to provide hands-on exposure to platform engineering and real-world technical problem solving.
+This repository contains my completed submissions for the **Technology Job Simulation** — a real-world engineering simulation hosted by *Deloitte Australia*.
 
-The simulation focuses on building practical engineering skills through structured coding tasks inspired by real client scenarios.
-
----
-
-## About the Simulation
-
-The Deloitte Technology Job Simulation is a risk-free virtual experience designed to help students:
-
-* Practise real-world engineering problem solving
-* Strengthen programming and data transformation skills
-* Build confidence for technical interviews
-* Gain exposure to platform engineering concepts
-
-The program is self-paced and includes guided tasks that simulate industry scenarios in data integration and software development.
+I built solutions for real industrial data challenges, including unifying heterogeneous telemetry formats and drafting a development proposal for a real-time manufacturing dashboard.
 
 ---
 
-## Skills Developed
+## Completion Certificate
 
-Through this simulation, I practised:
+I completed the simulation and earned this certificate:
 
-* Python Programming
-* Data Structures
-* Data Model Transformation
-* Schema Reconciliation
-* Algorithm Design
-* Clean Code & Modularity
-* Test-Driven Validation
-* Structured Problem Solving
+👉 [Deloitte_Australia_Technology_Job_Simulation_Certificate_Shreeja_Hebbar.pdf](https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_69a1bc8dde4e0a7538878d3f_1772383844442_completion_certificate.pdf)
+
+---
+
+## Project Overview
+
+Modern manufacturing systems generate high volumes of machine telemetry across distributed facilities. This project demonstrates:
+
+* Data consolidation of heterogeneous telemetry models
+* Real-time system design thinking
+* Backend data transformation logic
+* Formal proposal writing for engineering solutions
+
+The simulation was completed as part of a virtual job experience aimed at improving practical engineering skills relevant to industry environments.
+
+---
+
+## Skills Practiced
+
+| Category             | Skills                                              |
+| -------------------- | --------------------------------------------------- |
+| Engineering          | Data Modeling, Backend Logic, System Design         |
+| Programming          | Python, JSON Handling, Unit Testing                 |
+| Software Development | Modular Architecture, Test-Driven Validation        |
+| Professional         | Proposal Writing, Project Estimation, Documentation |
 
 ---
 
@@ -40,51 +44,128 @@ Through this simulation, I practised:
 technology-job-simulation/
 │
 ├── task-1-data-model-unification/
-├── task-2/
+│   ├── main.py
+│   ├── data-1.json
+│   ├── data-2.json
+│   ├── data-result.json
+│
+├── task-2-proposal/
+│   ├── Software Development Proposal.pdf
+│   ├── Model Submission.pdf
+│
 └── README.md
 ```
 
-Each task folder contains the implementation files and required sample inputs.
-
 ---
 
-# Task 1 – Data Model Unification (Completed)
+## Task 1 – Data Model Unification
 
 ### Objective
 
-Create an algorithm to unify two different telemetry data models into a single standardized output format.
+Design an algorithm to unify two different telemetry JSON formats into a single standardized output schema.
 
-### What I Implemented
+### Description
 
-* Converted two heterogeneous JSON schemas into one unified structure
-* Extracted nested device metadata
-* Reconstructed hierarchical location information
-* Converted ISO 8601 timestamps to epoch milliseconds
-* Implemented modular transformation functions
-* Validated correctness using automated unit tests
+Industrial IoT devices at Daikibo report machine status in two heterogeneous JSON formats. The program reads both formats and produces a consistent schema with:
 
-### Result
+* Normalized device metadata
+* Nested location breakdown
+* Timestamp normalization to epoch milliseconds
+* Device operational status and temperature
 
-All provided unit tests pass successfully.
+### Implementation
 
-### Replit Submission Link
+The code was implemented in Python using modular functions:
 
-👉 [https://replit.com/@hebbarshree855/technology-job-simulation](https://replit.com/@hebbarshree855/technology-job-simulation)
+* `convertFromFormat1()`
+* `convertFromFormat2()`
+* `main()` routes input to correct converter
+
+Automated unit tests validate correctness across both formats.
+
+### Replit Submission
+
+The working solution is publicly available here:
+
+👉 [Telemetry Data Integration](https://replit.com/@hebbarshree855/technology-job-simulation)
 
 ---
 
-# Task 2 – (Coming Soon)
+## Task 2 – Development Proposal
 
-Task 2 will be updated after completion.
+### Objective
+
+Draft a formal software development proposal for a *private, real-time manufacturing health dashboard* showing the operational status of machines across Daikibo’s four factories.
+
+### Summary
+
+The proposal includes:
+
+1) Project overview
+2) Scope of work and features
+3) Security requirements (intranet + authentication)
+4) Man-hour estimates
+5) Milestones and timeline
+6) Post-deployment support plan
+
+The proposal was authored using the official simulation template and included realistic estimates and architecture planning.
+
+(See `Software Development Proposal.pdf` in this repo.)
 
 ---
 
-## Learning Outcome
+## Architecture Overview
 
-This simulation strengthened my understanding of:
+The solution design (for the proposed dashboard) includes:
 
-* Reconciling different data sources
-* Writing reusable transformation logic
-* Designing modular backend-style functions
-* Approaching technical tasks with an engineering mindset
+### 🔹 Data Ingestion Layer
 
+Real-time telemetry streaming from IIoT devices using APIs or streaming protocols.
+
+### 🔹 Processing Layer
+
+Backend service to validate, normalize, and process incoming telemetry.
+
+### 🔹 Storage Layer
+
+Time-series or relational database for historical status data.
+
+### 🔹 Backend API
+
+Python backend (e.g., FastAPI) exposing data to the frontend.
+
+### 🔹 Frontend Dashboard
+
+Single-page interface with collapsible views for factories and devices.
+
+### 🔹 Alerting
+
+Smart alerts on status changes or anomalies.
+
+---
+
+## What I Learned
+
+This simulation helped me develop:
+
+* Practical skills in data normalization and transformation
+* Real-world engineering thinking
+* Architecture design and proposal writing
+* Effective communication of technical solutions
+
+---
+
+## What’s Next
+
+Potential future expansions include:
+
+1) Predictive analytics for machine failures
+2) Historical reporting and dashboards
+3) User roles and granular access control
+4) Mobile or cross-platform UI
+
+---
+
+## Acknowledgements
+
+Completed as part of the Deloitte Australia Technology Virtual Job Simulation — designed to bridge academic learning with industry practice.
